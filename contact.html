@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <meta charset="UTF-8">
-	<title>About | Ryan Lacy</title>
+	<title>Contact | Ryan Lacy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">  
 
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
@@ -32,19 +33,33 @@
         <a href="contact.html">Contact</a>
       </nav>
 		</div>
+
 	</header>
 
 	<div id="main-container" class="container">
 
 		<section class="main-section">
-			<h1 id="about-portfolio-contact">About Me</h1>
-			<img src="assets/images/profile_picture.jpg" class="auth-image" alt="Ryan Lacy">
+			<h1 id="about-portfolio-contact">Contact</h1>
 
-			<p>Full Stack Web Developer, always seeking to improve performance, quality, and efficiency.  Experienced in HTML5, CSS3, JavaScript, JQuery, Bootstrap, Firebase, Git, Node.Js.
-			</p>
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+					</li>
 
-	  	<p>Looking to apply my knowledge of web development to an innovative team to build robust applications and top-notch websites.
-	  	</p>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+					</li>
+
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit">
+			</form>
 
 		</section>
 
@@ -70,7 +85,7 @@
   	</div>
   </footer>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
